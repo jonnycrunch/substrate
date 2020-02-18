@@ -29,7 +29,7 @@ grandpa = { version = "0.8", package = "sc-finality-grandpa", path = "../../../c
 grandpa-primitives = { version = "2.0.0", package = "sp-finality-grandpa", path = "../../../primitives/finality-grandpa" }
 sc-client = { version = "0.8", path = "../../../client/" }
 sp-runtime = { version = "2.0.0", path = "../../../primitives/runtime" }
-sc-basic-authorship = { path = "../../../client/basic-authorship" }
+sc-basic-authorship = { version = "2.0.0", path = "../../../client/basic-authorship" }
 
 node-template-runtime = { version = "2.0.0", path = "../runtime" }
 
