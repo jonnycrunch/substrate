@@ -16,19 +16,19 @@ log = "0.4.8"
 parking_lot = "0.10.0"
 serde = { version = "1.0", features=["derive"] }
 
-sc-client = { path = "../../../client" }
-sc-client-api = { path = "../../../client/api" }
-sc-transaction-pool = { path = "../../transaction-pool" }
-sp-blockchain = { path = "../../../primitives/blockchain" }
-sp-consensus = { package = "sp-consensus", path = "../../../primitives/consensus/common" }
-sp-inherents = { path = "../../../primitives/inherents" }
-sp-runtime = {  path = "../../../primitives/runtime" }
-sp-transaction-pool = { path = "../../../primitives/transaction-pool" }
+sc-client = { version = "2.0.0", path = "../../../client" }
+sc-client-api = { version = "2.0.0", path = "../../../client/api" }
+sc-transaction-pool = { version = "2.0.0", path = "../../transaction-pool" }
+sp-blockchain = { version = "2.0.0", path = "../../../primitives/blockchain" }
+sp-consensus = { version = "0.8", package = "sp-consensus", path = "../../../primitives/consensus/common" }
+sp-inherents = { version = "2.0.0", path = "../../../primitives/inherents" }
+sp-runtime = { version = "2.0.0",  path = "../../../primitives/runtime" }
+sp-transaction-pool = { version = "2.0.0", path = "../../../primitives/transaction-pool" }
 
 [dev-dependencies]
-sc-basic-authorship = { path = "../../basic-authorship" }
-substrate-test-runtime-client = { path = "../../../test-utils/runtime/client" }
-substrate-test-runtime-transaction-pool = { path = "../../../test-utils/runtime/transaction-pool" }
+sc-basic-authorship = { version = "2.0.0", path = "../../basic-authorship" }
+substrate-test-runtime-client = { version = "2.0.0", path = "../../../test-utils/runtime/client" }
+substrate-test-runtime-transaction-pool = { version = "2.0.0", path = "../../../test-utils/runtime/transaction-pool" }
 tokio = { version = "0.2", features = ["rt-core", "macros"] }
 env_logger = "0.7.0"
 tempfile = "3.1.0"

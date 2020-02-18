@@ -19,7 +19,7 @@ pallet-timestamp = { version = "2.0.0", default-features = false, path = "../tim
 sp-timestamp = { version = "2.0.0", default-features = false, path = "../../primitives/timestamp" }
 pallet-session = { version = "2.0.0", default-features = false, path = "../session" }
 sp-consensus-babe = { version = "0.8", default-features = false, path = "../../primitives/consensus/babe" }
-sp-io ={ path = "../../primitives/io", default-features = false }
+sp-io = { version = "2.0.0", path = "../../primitives/io", default-features = false }
 
 [dev-dependencies]
 lazy_static = "1.4.0"
