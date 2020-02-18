@@ -5,6 +5,7 @@ version = "2.0.0"
 license = "GPL-3.0"
 authors = ["Parity Technologies <admin@parity.io>"]
 edition = "2018"
+publish = false
 
 [dependencies]
 grafana-data-source = { version = "0.8", path = ".." }
